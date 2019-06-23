@@ -213,7 +213,7 @@ head(nh_names)
 #set_key("AIzaSyDML4DP3Z-675erwTe9cxTg3TD5SYwj7rg", api = "map")
 #set_key("AIzaSyDML4DP3Z-675erwTe9cxTg3TD5SYwj7rg", api = "default")
 #google_keys() # check to see which API keys are active
-register_google(key = "AIzaSyDML4DP3Z-675erwTe9cxTg3TD5SYwj7rg")
+register_google(key = "xxx")
 
 # plot our standard map of LA
 la_map <- get_map(location = c(lon=-118.31, lat=34.0),  maptype = "roadmap", source = "google", zoom = 10) # map of los angeles
